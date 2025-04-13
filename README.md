@@ -2,9 +2,7 @@
 
 ## Overview
 
-This repository contains the analysis of real estate sales data from SM Development Corporation (SMDC), a leading real estate developer in the Philippines.  
-The analysis utilizes a dataset containing 1,000 residential sales transactions across various SMDC projects.  
-The analysis was performed using Excel for **data cleaning and preparation**, SQL for **data querying and aggregation**, Power BI for **data visualization**, and Google Colab (Python) for **data modeling and predictive analytics**.
+This repository contains the analysis of real estate sales data. The analysis utilizes a dataset containing 1,000 residential sales transactions across various projects. The analysis was performed using Excel for **data cleaning and preparation**, SQL for **data querying and aggregation**, Power BI for **data visualization**, and Google Colab (Python) for **data modeling and predictive analytics**.
 
 ## Dataset Description
 
@@ -29,28 +27,27 @@ The analysis includes the following steps:
     -   VLOOKUP
 
 2.  **Data Aggregation and Querying (SQL):**
-    -   average selling price per unit type  
-    -   total sales amount and the number of sales for each agent  
-    -   retrieve all transactions from the last 30 days  
-    -   total sales amount by location and sort the results in descending order  
-    -   projects with more than 10 transactions and the average selling price for each project  
-    -   top 3 highest selling prices for each unit type  
-    -   total sales amount and average selling price for each payment mode  
-    -   sales agent who made the highest total sales in a specific year  
-    -   average selling price for each project in each location, and projects where the average price is higher than the overall average price  
-    -   top-selling projects by unit type in each location (ranked by total sales)
+    -   Average selling price per unit type  
+    -   Total sales amount and the number of sales for each agent  
+    -   Retrieve all transactions from the last 30 days  
+    -   Total sales amount by location and sort the results in descending order  
+    -   Projects with more than 10 transactions and the average selling price for each project  
+    -   Top 3 highest selling prices for each unit type  
+    -   Total sales amount and average selling price for each payment mode  
+    -   Sales agent who made the highest total sales in a specific year  
+    -   Average selling price for each project in each location, and projects where the average price is higher than the overall average price  
+    -   Top-selling projects by unit type in each location (ranked by total sales)
 
 3.  **Data Visualization (Power BI):**
     -   Monthly Sales Trend
     -   Total Sales by Location
     -   Average Selling Price per Unit Type
     -   Top Performing Sales Agents
-    -   Payment Mode Distribution
     -   Project Sales Comparison
 
 4.  **Predictive Analytics (Python/Google Colab):**
-    -   Linear Regression Model to predict selling price based on project, unit type, location, payment mode, and sales agent
-    -   Model evaluation using R² and RMSE metrics
+    -   Linear Regression Model to predict selling price based on project, unit type, and location.
+    -   Model evaluation using metrics.
 
 ## Summary of Findings
 
