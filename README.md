@@ -9,7 +9,7 @@ This repository contains the analysis of real estate sales data. The analysis ut
 The dataset includes the following columns:
 - `transaction_id` – Unique identifier for each transaction
 - `sale_date` – Date the sale was made
-- `project_name` – Name of the SMDC project
+- `project_name` – Name of the project
 - `unit_type` – Type of residential unit sold (e.g., Studio, 1BR, 2BR)
 - `selling_price` – Final sale price of the unit
 - `location` – City or area where the project is located
@@ -51,21 +51,20 @@ The analysis includes the following steps:
 
 ## Summary of Findings
 
-* Studio units are the most frequently sold, but 2BR units yield the highest average selling price.
-* Locations near major business districts tend to have higher average prices and more transactions.
+* Makati generated the highest total revenue among all locations, indicating strong demand and higher price points.
+* 2BR units had the highest average selling price, while Studio units had the lowest, reflecting buyer preferences for larger spaces.
 
 ## Anomalies and Patterns
 
-1. One project showed unusually high sale prices compared to others in the same location.  
-2. A few agents consistently outperformed peers regardless of project or payment mode.
+1. Pasay recorded the lowest total revenue despite having multiple projects, suggesting weaker market demand or lower pricing strategies.
+2. Sales peaked significantly in August 2024, hinting at a possible seasonal trend or campaign-driven performance.
 
 ## Root Cause Analysis
 
-1. High sale prices in one project were due to premium features and limited availability.  
-2. Top-performing agents had multiple listings across high-demand locations.
+1. Pasay's low revenue may be due to limited high-value inventory or reduced promotional efforts in the area.
+2. The sales spike in August 2024 may be attributed to targeted sales campaigns or special buyer incentives launched during that period.
 
 ## Recommendations
 
-1. Focus marketing and inventory on high-performing projects and unit types.  
-2. Analyze strategies of top agents and replicate their approach for broader sales team performance.
-
+1. Reassess marketing strategies and pricing for projects in Pasay to boost visibility and competitiveness.
+2. Replicate or scale August's successful sales strategies to other months to sustain high performance year-round.
